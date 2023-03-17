@@ -1,0 +1,28 @@
+CREATE TABLE
+    leads (
+        id INTEGER PRIMARY KEY AUTO_INCREMENT,
+        type_form VARCHAR(200),
+        date_input VARCHAR(300),
+        firstname VARCHAR(300) NOT NULL,
+        lastname VARCHAR(300),
+        email VARCHAR(300),
+        phone VARCHAR(300),
+        price_range_min VARCHAR(300),
+        price_range_max VARCHAR(300),
+        time_start VARCHAR(300),
+        time_end VARCHAR(300),
+        asap VARCHAR(300),
+        have_agent VARCHAR(300),
+        have_house_sell VARCHAR(300),
+        comments VARCHAR(300),
+        recive_email VARCHAR(300),
+        instructions VARCHAR(300),
+        tags VARCHAR(300),
+        house_price VARCHAR(300),
+        house_city VARCHAR(300),
+        house_place VARCHAR(300),
+        house_bed VARCHAR(300),
+        house_bath VARCHAR(300),
+        house_sqft VARCHAR(300),
+        createAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
